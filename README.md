@@ -29,7 +29,7 @@ You favorite task-handler app, combined with ease of use & security
 ### Backend
 
 - Node.js
-- ExpresJS
+- ExpressJS
 - MongoDB & Mongoose
 
 ### Frontend
