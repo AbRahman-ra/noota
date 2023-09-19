@@ -1,3 +1,5 @@
+# Initial Thoughts (Contd.)
+
 I now understood why the heck backend engineers use cringe endpoints like "/api/v1/blabla"
 
 Simply because (specially in SPA) front end routing is independent of backend routing, and technically we're dealing with the API
