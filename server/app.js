@@ -12,12 +12,14 @@ const app = express();
 const authRouter = require("./routers/api/userAuthRouter");
 const userAccountRouter = require("./routers/api/userAccountRouter");
 const tasksRouter = require("./routers/api/tasksRouter");
+const errHandler = require("./middleware/errorHandler");
 
 // Middleware Configurations
 app.use(credentials);
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors(corsOptions));
+app.use(errHandler);
 
 // Routes & Routers
 app.use("/api/auth", authRouter); // Authentication
