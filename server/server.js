@@ -2,7 +2,6 @@
 
 const app = require("./app");
 const connectDB = require("./config/database");
-require("dotenv").config({ path: "./.env" });
 
 // Initialization
 const PORT = process.env.PORT || 4000;

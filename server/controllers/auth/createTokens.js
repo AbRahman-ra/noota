@@ -1,7 +1,6 @@
 // @ts-check
 
 const jwt = require("jsonwebtoken");
-require("dotenv").config({ path: "./../.env" });
 
 const createRefreshToken = (payloadKey, payloadValue) => {
   if (process.env.REFRESH_TOKEN_SECRET) {

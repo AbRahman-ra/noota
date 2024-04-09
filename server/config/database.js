@@ -1,7 +1,6 @@
 // @ts-check
 
 const mongoose = require("mongoose");
-require("dotenv").config({ path: "./../.env" });
 
 const connectDB = async () => {
   if (process.env.DB_CONNECTION_URI && process.env.DB_PASSWORD) {

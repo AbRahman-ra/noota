@@ -3,7 +3,6 @@
 // CORE MODULES & SETUP
 const User = require("../../models/User");
 const bcrypt = require("bcrypt");
-require("dotenv").config({ path: "./../.env" });
 const { createAccessToken, createRefreshToken } = require("./createTokens");
 
 // INPUT VALIDATORS
